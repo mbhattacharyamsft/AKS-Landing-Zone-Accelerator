@@ -9,7 +9,8 @@ variable "tags" {
   type = map(string)
 
   default = {
-    project = "cs-aks"
+    project = "akslz-poc",
+    doi = "190323"
   }
 }
 
